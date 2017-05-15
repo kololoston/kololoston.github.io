@@ -2,7 +2,7 @@ body {
 background-color: white;
 }
 
-square {
+div {
   height: 900px;
   width: 900px;
   background-color: red;
