@@ -5,4 +5,10 @@ body {
   width: 400px;
   height: 400px;
   background-color: red;
+  animation: rotate 5s linear 2s infinite alternate;
+}
+
+@keframes rotate {
+  0% {rotateX(0deg)}
+100% {rotatX(360deg)}
 }
