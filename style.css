@@ -5,6 +5,8 @@ body {
 div.square {
   width: 400px;
   height: 400px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: red;
   animation-name: rotate;
   animation-duration: 4s;
