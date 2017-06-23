@@ -6,7 +6,8 @@ body {
   width: 400px;
   height: 400px;
   background-color: red;
-  animation: rotate 5s linear infinite alternate;
+  animation-name: rotate;
+  animation-duration: 4s;
 }
 
 @keframes rotate {
