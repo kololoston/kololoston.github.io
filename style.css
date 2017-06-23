@@ -8,8 +8,7 @@ div.square {
   margin-left: auto;
   margin-right: auto;
   background-color: red;
-  animation-name: rotate;
-  animation-duration: 4s;
+  animation: rotate 5s ease 5s infinite alternate;
 }
 
 @keframes rotate {
