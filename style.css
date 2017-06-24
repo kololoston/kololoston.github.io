@@ -11,7 +11,7 @@ div.square {
   animation: rotate 5s linear 0s infinite alternate;
 }
 
-@keframes rotate {
+@keyframes rotate {
   from {transform: rotateX(0deg);}
   to {transform: rotateX(360deg);}
 }
