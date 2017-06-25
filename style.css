@@ -2,6 +2,11 @@ body {
   background-color: darkGrey;
 }
 
+.googleads {
+  width: 400;
+  height: 300;
+}
+
 .square {
   width: 400px;
   height: 400px;
