@@ -2,6 +2,10 @@ body {
   background-color: darkGrey;
 }
 
+p {
+  font-family: sans-serif;
+}
+
 .square {
   width: 200px;
   height: 200px;
