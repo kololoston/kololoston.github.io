@@ -2,14 +2,9 @@ body {
   background-color: darkGrey;
 }
 
-.googleads {
-  width: 1200;
-  height: 90;
-}
-
 .square {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   background-color: red;
@@ -17,8 +12,14 @@ body {
 }
 
 @keyframes rotate {
-  from {transform: rotateX(0deg);
-  transform: rotateY(0deg);}
-  to {transform: rotateX(360deg);
-  transform: rotateY(360deg);}
+  from {
+  transform: rotateX(0deg);
+  transform: rotateY(0deg);
+  background-color: red;
+  }
+  to {
+  transform: rotateX(360deg);
+  transform: rotateY(360deg);
+  background-color: blue;
+  }
 }
