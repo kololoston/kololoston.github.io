@@ -1,9 +1,16 @@
 body {
-  font-family: sans-serif;
   background-color: darkGrey;
 }
 
-head {
+p {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
   font-family: sans-serif;
 }
 
